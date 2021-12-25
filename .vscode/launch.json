@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "OnYourOwn (Debug)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwn Win64 Debug Build",
+			"program": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwn (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwn Win64 DebugGame Build",
+			"program": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwn (Development)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwn Win64 Development Build",
+			"program": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwn (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwn Win64 Shipping Build",
+			"program": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwn (Test)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwn Win64 Test Build",
+			"program": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwnEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwnEditor Win64 Debug Build",
+			"program": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject"
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwnEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwnEditor Win64 DebugGame Build",
+			"program": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject"
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "OnYourOwnEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "OnYourOwnEditor Win64 Development Build",
+			"program": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject"
+			],
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE4\\UE_4.27\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+		}
+	]
+}

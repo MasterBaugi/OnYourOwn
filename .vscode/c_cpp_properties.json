@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "OnYourOwnEditor Editor Win64 Development (OnYourOwn)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\.vscode\\compileCommands_OnYourOwn.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

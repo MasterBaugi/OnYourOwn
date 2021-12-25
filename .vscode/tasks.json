@@ -1,0 +1,1447 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "OnYourOwn Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win32",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Win64",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwn Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwn Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwn Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwn Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Shipping",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Build",
+				"OnYourOwn Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-Project=D:/UE4/Unreal Projects/GitRepo/S05_Tank'sBattle/OnYourOwn/OnYourOwn.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"OnYourOwn Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwn Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwn Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwn",
+				"Android",
+				"Test",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwnEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OnYourOwnEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		},
+		{
+			"label": "OnYourOwnEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OnYourOwnEditor",
+				"Win64",
+				"Development",
+				"D:\\UE4\\Unreal Projects\\GitRepo\\S05_Tank'sBattle\\OnYourOwn\\OnYourOwn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4\\UE_4.27\\UE_4.27"
+			}
+		}
+	]
+}
