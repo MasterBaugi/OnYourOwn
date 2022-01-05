@@ -14,7 +14,10 @@ class ONYOUROWN_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
-private:
+public:
+    // to get the pawn controlled by this controller
     class ATank* GetControlledTank() const;
+
+    virtual void BeginPlay() override;
 	
 };
