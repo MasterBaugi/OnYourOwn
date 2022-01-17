@@ -6,13 +6,18 @@
 void ATankPlayerController::BeginPlay()
 {
     Super::BeginPlay();
+    
+    ATank* ControlledTank = GetControlledTank();
     UE_LOG(LogTemp, Warning, TEXT("PlayerController beginplay working"))
 
-    if(GetControlledTank())
+    if(!ControlledTank)
     {
-        UE_LOG(LogTemp, Warning, TEXT("Tank is allset"));
-
+        UE_LOG(LogTemp, Warning, TEXT("PC not possessing a tank"));
+        return;
     }
+    
+    UE_LOG(LogTemp, Warning, TEXT("PC possessing a tank: %s"), *(ControlledTank->GetName()));
+    
 }
 
 ATank* ATankPlayerController::GetControlledTank() const
