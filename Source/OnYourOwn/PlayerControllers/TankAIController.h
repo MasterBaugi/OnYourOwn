@@ -14,9 +14,13 @@ class ONYOUROWN_API ATankAIController : public AAIController
 {
 	GENERATED_BODY()
 	
-public:
+private:
     // to get the pawn controlled by this controller
     class ATank* GetAIControlledTank() const;
+
+    class ATank* GetPlayerTank() const;
+
+protected:
 
     virtual void BeginPlay() override;
 

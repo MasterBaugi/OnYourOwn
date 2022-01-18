@@ -8,7 +8,6 @@ void ATankPlayerController::BeginPlay()
     Super::BeginPlay();
     
     ATank* ControlledTank = GetControlledTank();
-    UE_LOG(LogTemp, Warning, TEXT("PlayerController beginplay working"))
 
     if(!ControlledTank)
     {
@@ -23,4 +22,20 @@ void ATankPlayerController::BeginPlay()
 ATank* ATankPlayerController::GetControlledTank() const
 {
     return Cast<ATank>(GetPawn());
+}
+
+void ATankPlayerController::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+    AimTowardsCrosshair();
+    
+}
+
+void ATankPlayerController::AimTowardsCrosshair()
+{
+    if(!GetControlledTank()) return;
+
+    // get world location if Linetrace through crosshair
+    // if hits the landscape, then move tank's barrel to that point
 }
