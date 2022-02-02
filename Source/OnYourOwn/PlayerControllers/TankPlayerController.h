@@ -20,6 +20,9 @@ private:
     float CrosshairXLocation = 0.5;
     UPROPERTY(EditAnywhere)
     float CrosshairYLocation = 0.3333;
+    UPROPERTY(EditAnywhere)
+    float LineTraceRange = 1000000.0;
+
     
     // FUNCTIONS
     // to get the pawn controlled by this controller
@@ -29,7 +32,8 @@ private:
     void AimTowardsCrosshair();
 
     bool GetSightRayHitLocation(FVector& Out_HitLocation) const;
-    bool GetWorldDirection(FVector2D ScreenLocation, FVector& WorldDirection) const;
+    bool GetLookDirection(FVector2D ScreenLocation, FVector& WorldDirection) const;
+    bool GetLookVectorHitLocation(FVector WorldDirection, FVector& Out_HitLocation) const;
     
 public:	
 	// Called every frame
